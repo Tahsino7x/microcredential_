@@ -1,0 +1,83 @@
+# microcredential_
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- my css code -->
+    <link rel="stylesheet" href="myCSS.css" type="text/css">
+
+    <title>Tahsin Parvez - Week 5 Activity 3 and 4 - Bootstrap</title>
+  </head>
+  <body>
+    <h1 class = "bg-warning text-danger" style = "text-align: center;">Hello, world!</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 bg-dark my-bg"> Small window </div>
+        <div class="col-sm-4 bg-info"> Small window </div>
+        <div class="col-md-2 bg-secondary"> Medium Window </div>
+        <div class="col-lg-2 bg-primary"> Large Window </div>
+      </div>
+    </div>
+
+    <h1 class = "bg-warning text-danger" style = "text-align: center;"> Cards with Bootstrap</h1>
+    <br><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <section class = "card">
+            <a href = "https://en.wikipedia.org/wiki/Giza_Plateau" target = "_blank" class = "cardLink">
+              <div class="card-body">
+                <img src = "i1.jpg" alt = "Giza Pyramids" title = "Pyramids in Giza" class = "card-img img-fluid">
+                <h3 class = "card-title">Giza Plateau - Egypt</h3>
+                <p class = "card-subtitle">On the outskirts of Cairo, Egypt, site of the Fourth Dynasty Giza Necropolis.               </p>
+              </div>
+            </a>
+          </section>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <section class = "card">
+            <a href = "https://en.wikipedia.org/wiki/Great_Barrier_Reef" target = "_blank" class = "cardLink">
+              <div class="card-body">
+                <img src = "i2.jpg" alt = "The Great Barrier Reef" title = "Great Barrier Reef" class = "card-img img-fluid">
+                <h3 class = "card-title">Great Barrier Reef - Australia</h3>
+                <p class = "card-subtitle">The Great Barrier Reef, the world's largest coral reef system composed of over 2,900 individual reefs. </p>
+              </div>
+            </a>
+          </section>
+        </div>
+        <div class="col-md-3 col-sm-6"><!-- third card -->
+          <section class = "card">
+            <a href = "https://en.wikipedia.org/wiki/Jurong_Bird_Park" target = "_blank" class = "cardLink">
+              <div class="card-body">
+                <img class="i3" src = "i3.jpg" alt = "Jurong Bird Park" title = "Jurong Bird Park" class = "card-img img-fluid">
+                <h3 class = "card-title">Jurong Bird Park - Singapore</h3>
+                <p class = "card-subtitle">Jurong Bird Park is an aviary and tourist attraction in Jurong, Singapore.</p>
+              </div>
+            </a>
+          </section>
+        </div>
+        <div class="col-md-3 col-sm-6"><!-- fourth card -->
+          <section class = "card">
+            <a href = "https://en.wikipedia.org/wiki/Niagara_Falls,_New_York" target = "_blank" class = "cardLink">
+              <div class="card-body">
+                <img src = "i4.jpg" alt = "Niagara Falls" title = "Niagara Falls" class = "card-img img-fluid">
+                <h3 class = "card-title">Niagara Falls - Canada</h3>
+                <p class = "card-subtitle">Niagara Falls is a city in Niagara County, New York, United States. The city had a total population of 48,671.</p>
+              </div>
+            </a>
+          </section>
+        </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
